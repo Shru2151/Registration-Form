@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Student Registration Form</title>
+    </head>
+    <body>
+        <img src="Photos/Pillai logo.jpg", width="1320", height="120">
+        <h1 style="background-color: #ffd000;", align="center">WELCOME TO STUDENT REGESTRATION FORM</h1>
+        <form>
+            <fieldset>
+                <legend>NAME</legend>
+                <label>FirstName: <input type="text" name="firstname"></label>
+                <label>FatherName: <input type="text" name="firstname"></label>
+                <label>LastName: <input type="text" name="firstname"></label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>GENDER</legend>
+                <label><input type="radio" name="gender" value="male"> Male</label> <br> 
+                <label><input type="radio" name="gender" value="female"> Female</label><br>
+                <label><input type="radio" name="gender" value="others"> Others</label> <br>
+            </fieldset>
+            <fieldset>
+                <label>College Name: <input type="text" name="College Name"></label><br><br>
+                <label>University:<input type="text" name="University"></label><br><br>
+                <label>Department:</label>
+                <select name="Department" >
+                    <option value="Computer Science">IT</option>
+                    <option value="Elctronics">ELEX</option>
+                    <option value="Electronics and telecommunications">EXTC</option>
+                    <option value="Information Technology">CS</option>
+                </select>
+            </fieldset> 
+            <br>
+                <fieldset>
+                <legend>Contact Details and Address</legend>
+                <label>Email Address: <input type="text" name="email"></label>
+                <label>Phone Number: <input type="text" name="phone"></label>
+                <label>Address:</label>
+                <textarea rows="3" cols="70" name="address" id="address"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>D-O-B</legend>
+                    <label>Date Of Birth:<input type="date" name="date of birth" 
+                        placeholder="dd-mm-yyyy" min="01-01-2000" max="01-12-2021"></label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Hobbies</legend> 
+                    <label><input type="checkbox" name="hobbies" value="singing"> Singing</label>
+                    <label><input type="checkbox" name="hobbies" value="dancing"> Dancing</label>
+                    <label><input type="checkbox" name="hobbies" value="sports"> Sports</label>
+                    </fieldset>
+
+                <lable></lable>
+                <br/><br/><br/><br/>
+                <input type="button" value="Submit">.
+                <input type="button" value="Reset">
+                
+        </form>
+    </body>
+</html>
